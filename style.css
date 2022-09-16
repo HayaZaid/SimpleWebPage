@@ -1,0 +1,406 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.navbar {
+	background-image: url("imgs/10.jpg");
+	background-size: cover;
+	width: 100%;
+	min-height: 640px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.navbar h1 {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 55px;
+	color: black;
+	font-family: sans-serif;
+}
+
+.navbar ul {
+	list-style: none;
+	float: right;
+	margin-top: 18px;
+	color: black;
+}
+.navbar ul li {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 6px 12px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.navbar ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar ul li:last-child {
+	background-color: white;
+	color: black;
+	border-radius: 40px;
+	border: none;
+}
+
+.navbar ul li:last-child a {
+	color: #000;
+}
+
+.navbar ul li:last-child :hover {
+	color: skyblue;
+}
+.navbar ul li a:hover {
+	color: #fff;
+}
+
+.navbar h2,
+.navbar p {
+	text-align: center;
+
+	padding-top: 140px;
+	padding-bottom: 15px;
+	color: black;
+}
+.navbar h2 {
+	font-size: 55px;
+	font-family: sans-serif;
+}
+
+.navbar p {
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.navbar .bt {
+	margin: auto;
+	display: block;
+	width: 200px;
+	margin-top: 20px;
+	padding-left: 22;
+	padding-right: 22;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	border-radius: 40px;
+	border: none;
+	background-color: #2999b8;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.Consectetur {
+	background-color: #f6f6f6;
+	min-height: 30px;
+	padding-top: 75px;
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 90px;
+}
+
+.Consectetur h2 {
+	font-size: 45px;
+	font-family: sans-serif;
+	color: #404040;
+}
+.Consectetur p {
+	margin-top: 15px;
+	margin-bottom: 60px;
+	font-size: 22px;
+	font-family: sans-serif;
+	color: #8c8c8c;
+}
+
+.Consectetur .info > div {
+	float: left;
+	height: 340px;
+	width: 31.333%;
+	background-color: white;
+	border: 1px solid #ddd;
+	margin-right: 2%;
+	padding-bottom: 25px;
+	padding-top: 35px;
+	padding-left: 35px;
+	padding-right: 25px;
+	line-height: 1.4;
+}
+
+.Consectetur .info h4 {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #999999;
+}
+
+.Consectetur .info p {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #666666;
+}
+
+.Consectetur .info img {
+	border-radius: 50%;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.Lorem {
+	padding-top: 90px;
+	padding-bottom: 50px;
+
+	overflow: hidden;
+}
+
+.Lorem h2,
+.Lorem p.center {
+	text-align: center;
+}
+
+.Lorem h2 {
+	font-size: 45px;
+	font-family: sans-serif;
+	color: #4d4d4d;
+	margin-bottom: 15px;
+}
+
+.Lorem p {
+	font-size: 22px;
+	font-family: sans-serif;
+	color: #8c8c8c;
+	margin-bottom: 60px;
+}
+
+.Lorem .decs {
+	height: 220px;
+}
+
+.Lorem .decs > div {
+	background-color: white;
+	border: 1px solid #ddd;
+	border: 0;
+	float: left;
+	width: 25%;
+	margin-top: 70px;
+}
+.Lorem .decs > div .one {
+	float: left;
+	width: 32%;
+}
+
+.Lorem .decs > div .one img {
+	border-radius: 50%;
+}
+
+.Lorem .decs > div .two {
+	float: left;
+	width: 68%;
+	padding-left: 8px;
+}
+.Lorem .decs > div .two h5 {
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #4d4d4d;
+	margin-bottom: 10px;
+}
+
+.Lorem .decs > div .two p {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #666666;
+	margin-bottom: 10px;
+}
+
+.hr hr {
+	color: #f2f2f2;
+	background-color: #f2f2f2;
+}
+
+.Lorem .p-b {
+	padding-top: 60px;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-left: 110px;
+	padding-right: 110px;
+}
+
+.Lorem .p-b p {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #696969;
+	margin-bottom: 40px;
+}
+
+.Lorem .p-b .bt {
+	margin: auto;
+	display: block;
+	width: 250px;
+	margin-top: 20px;
+	padding: 16px 14px;
+	border-radius: 40px;
+	border: none;
+	background-color: #2999b8;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.sign-in {
+	background-color: #2999b8;
+	padding-top: 90px;
+	text-align: center;
+	padding-bottom: 90px;
+}
+
+.sign-in h2 {
+	font-size: 45px;
+	font-family: sans-serif;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.sign-in p {
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+	margin-bottom: 15px;
+}
+.sign-in form {
+	margin-top: 40px;
+}
+
+.sign-in form input {
+	width: 280px;
+	line-height: 25px;
+	border-radius: 3px;
+	border: none;
+	display: inline-block;
+	padding: 8px;
+	margin-bottom: 25px;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #666666;
+}
+.sign-in form .name {
+	margin-right: 20px;
+}
+.sign-in form textarea {
+	margin: auto;
+	display: block;
+	width: 584px;
+	height: 150px;
+	margin-bottom: 25px;
+	padding-right: 10px;
+	border-radius: 3px;
+	border: none;
+	padding: 8px;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #666666;
+}
+
+.sign-in form button {
+	margin: auto;
+	display: block;
+	width: 220px;
+	margin-top: 20px;
+	padding: 16px 12px;
+	border-radius: 40px;
+	border: none;
+	background-color: #262626;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.footer {
+	background-color: #404040;
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+
+.footer .c > div {
+	width: 20%;
+	margin-right: 2%;
+	height: 270px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.footer .c > div h4 {
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-family: sans-serif;
+	line-height: 30px;
+	color: #f2f2f2;
+}
+
+.footer .c > div ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer .c > div ul li {
+	margin-bottom: 5px;
+}
+
+.footer .c > div ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: sans-serif;
+	line-height: 30px;
+}
+
+.footer hr {
+	display: block;
+	height: 0.5px;
+	background-color: dimgrey;
+}
+
+.footer .social-media {
+	margin-top: 60px;
+	overflow: hidden;
+}
+.footer .social-media .one {
+	float: left;
+	padding-left: 0;
+	margin-top: 17px;
+}
+
+.footer .social-media .one li {
+	display: inline-block;
+	margin-right: 20px;
+	color: #808080;
+	font-family: sans-serif;
+}
+
+.footer .social-media .two {
+	float: right;
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer .social-media .two li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.footer .social-media .two li img {
+	border-radius: 50%;
+}
